@@ -283,7 +283,9 @@ function Index() {
                 </ul>
               </div>
               <a
-                href="mailto:yagovicre@gmail.com?subject=Plan%20Mensual&body=Hola%20Yago,%20estoy%20interesado%20en%20el%20Plan%20Mensual."
+                href="https://wa.me/34644156545?text=Hola%20Yago,%20estoy%20interesado%20en%20el%20Plan%20Mensual."
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mt-10 block text-center rounded-full bg-foreground text-background py-3 text-sm font-medium tracking-wide hover:bg-primary transition"
               >
                 Contratar Plan
@@ -320,7 +322,9 @@ function Index() {
                 </ul>
               </div>
               <a
-                href="mailto:yagovicre@gmail.com?subject=Plan%20Trimestral&body=Hola%20Yago,%20estoy%20interesado%20en%20el%20Plan%20Trimestral."
+                href="https://wa.me/34644156545?text=Hola%20Yago,%20estoy%20interesado%20en%20el%20Plan%20Trimestral."
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mt-10 block text-center rounded-full bg-clay text-white py-3 text-sm font-medium tracking-wide hover:opacity-90 transition"
               >
                 Contratar Plan
@@ -354,7 +358,9 @@ function Index() {
                 </ul>
               </div>
               <a
-                href="mailto:yagovicre@gmail.com?subject=Plan%20Anual&body=Hola%20Yago,%20estoy%20interesado%20en%20el%20Plan%20Anual."
+                href="https://wa.me/34644156545?text=Hola%20Yago,%20estoy%20interesado%20en%20el%20Plan%20Anual."
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mt-10 block text-center rounded-full bg-foreground text-background py-3 text-sm font-medium tracking-wide hover:bg-primary transition"
               >
                 Contratar Plan
