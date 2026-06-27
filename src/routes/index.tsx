@@ -101,6 +101,7 @@ function Index() {
           <ul className="hidden md:flex items-center gap-10 text-sm text-muted-foreground">
             <li><a href="#sobre" className="hover:text-foreground transition">Sobre mí</a></li>
             <li><a href="#logros" className="hover:text-foreground transition">Logros</a></li>
+            <li><a href="#tarifas" className="hover:text-foreground transition">Tarifas</a></li>
             <li><a href="#testimonios" className="hover:text-foreground transition">Testimonios</a></li>
             <li><a href="#contacto" className="hover:text-foreground transition">Contacto</a></li>
           </ul>
@@ -133,6 +134,12 @@ function Index() {
                 className="inline-flex items-center rounded-full bg-foreground px-7 py-3.5 text-sm tracking-wide text-background hover:bg-primary transition"
               >
                 Quiero empezar →
+              </a>
+              <a
+                href="#tarifas"
+                className="inline-flex items-center rounded-full border border-border px-7 py-3.5 text-sm tracking-wide hover:bg-card transition"
+              >
+                Ver tarifas
               </a>
               <a
                 href="#testimonios"
@@ -226,6 +233,130 @@ function Index() {
                 <p className="text-muted-foreground leading-relaxed">{a.detail}</p>
               </article>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* TARIFAS */}
+      <section id="tarifas" className="py-28 md:py-36 bg-background">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
+            <div>
+              <p className="text-eyebrow mb-5">Tarifas</p>
+              <h2 className="text-display text-5xl md:text-7xl max-w-2xl">
+                Planes adaptados a <em className="italic text-clay">tus objetivos.</em>
+              </h2>
+            </div>
+            <p className="max-w-sm text-muted-foreground">
+              Elige el plan que mejor se adapte a tu ritmo. Asesoría 100% personalizada para garantizar tu cambio.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Mensual */}
+            <article className="border border-border bg-card/40 p-10 flex flex-col justify-between rounded-sm hover:border-clay/50 transition duration-300 relative overflow-hidden group">
+              <div>
+                <span className="text-xs uppercase tracking-widest text-muted-foreground font-semibold">Mensual</span>
+                <div className="mt-4 flex items-baseline gap-1">
+                  <span className="text-display text-6xl text-clay">30€</span>
+                  <span className="text-muted-foreground">/ mes</span>
+                </div>
+                <p className="mt-6 text-sm text-muted-foreground leading-relaxed">
+                  Ideal para probar el método y empezar a construir tus hábitos de forma guiada.
+                </p>
+                <ul className="mt-8 space-y-3.5 text-sm">
+                  <li className="flex items-center gap-2.5">
+                    <span className="text-clay">✓</span> Asesoría 1:1 online
+                  </li>
+                  <li className="flex items-center gap-2.5">
+                    <span className="text-clay">✓</span> Rutina personalizada
+                  </li>
+                  <li className="flex items-center gap-2.5">
+                    <span className="text-clay">✓</span> Plan de nutrición adaptado
+                  </li>
+                  <li className="flex items-center gap-2.5">
+                    <span className="text-clay">✓</span> Soporte semanal
+                  </li>
+                </ul>
+              </div>
+              <a
+                href="mailto:yagovicre@gmail.com?subject=Plan%20Mensual&body=Hola%20Yago,%20estoy%20interesado%20en%20el%20Plan%20Mensual."
+                className="mt-10 block text-center rounded-full bg-foreground text-background py-3 text-sm font-medium tracking-wide hover:bg-primary transition"
+              >
+                Contratar Plan
+              </a>
+            </article>
+
+            {/* Trimestral */}
+            <article className="border border-clay bg-card/70 p-10 flex flex-col justify-between rounded-sm hover:border-clay transition duration-300 relative overflow-hidden ring-1 ring-clay/20 shadow-elegant">
+              <div className="absolute top-0 right-0 bg-clay text-white text-[10px] uppercase tracking-widest px-3 py-1 font-semibold rounded-bl-sm">
+                Recomendado
+              </div>
+              <div>
+                <span className="text-xs uppercase tracking-widest text-clay font-bold">Trimestral</span>
+                <div className="mt-4 flex items-baseline gap-1">
+                  <span className="text-display text-6xl text-clay">85€</span>
+                  <span className="text-muted-foreground">/ trimestre</span>
+                </div>
+                <p className="mt-6 text-sm text-muted-foreground leading-relaxed">
+                  Para quienes buscan un compromiso a medio plazo y empezar a ver cambios físicos reales.
+                </p>
+                <ul className="mt-8 space-y-3.5 text-sm">
+                  <li className="flex items-center gap-2.5">
+                    <span className="text-clay">✓</span> Todo lo del plan mensual
+                  </li>
+                  <li className="flex items-center gap-2.5">
+                    <span className="text-clay">✓</span> Ajustes según progreso
+                  </li>
+                  <li className="flex items-center gap-2.5">
+                    <span className="text-clay">✓</span> Mayor adherencia y constancia
+                  </li>
+                  <li className="flex items-center gap-2.5">
+                    <span className="text-clay">✓</span> Ahorro del 6% mensual
+                  </li>
+                </ul>
+              </div>
+              <a
+                href="mailto:yagovicre@gmail.com?subject=Plan%20Trimestral&body=Hola%20Yago,%20estoy%20interesado%20en%20el%20Plan%20Trimestral."
+                className="mt-10 block text-center rounded-full bg-clay text-white py-3 text-sm font-medium tracking-wide hover:opacity-90 transition"
+              >
+                Contratar Plan
+              </a>
+            </article>
+
+            {/* Anual */}
+            <article className="border border-border bg-card/40 p-10 flex flex-col justify-between rounded-sm hover:border-clay/50 transition duration-300 relative overflow-hidden group">
+              <div>
+                <span className="text-xs uppercase tracking-widest text-muted-foreground font-semibold">Anual</span>
+                <div className="mt-4 flex items-baseline gap-1">
+                  <span className="text-display text-6xl text-clay">330€</span>
+                  <span className="text-muted-foreground">/ año</span>
+                </div>
+                <p className="mt-6 text-sm text-muted-foreground leading-relaxed">
+                  Transformación radical. Un año completo enfocado en cambiar tu estilo de vida por completo.
+                </p>
+                <ul className="mt-8 space-y-3.5 text-sm">
+                  <li className="flex items-center gap-2.5">
+                    <span className="text-clay">✓</span> Acompañamiento por 12 meses
+                  </li>
+                  <li className="flex items-center gap-2.5">
+                    <span className="text-clay">✓</span> Renovación trimestral de objetivos
+                  </li>
+                  <li className="flex items-center gap-2.5">
+                    <span className="text-clay">✓</span> Soporte directo y prioritario
+                  </li>
+                  <li className="flex items-center gap-2.5">
+                    <span className="text-clay">✓</span> Ahorro del 8% mensual
+                  </li>
+                </ul>
+              </div>
+              <a
+                href="mailto:yagovicre@gmail.com?subject=Plan%20Anual&body=Hola%20Yago,%20estoy%20interesado%20en%20el%20Plan%20Anual."
+                className="mt-10 block text-center rounded-full bg-foreground text-background py-3 text-sm font-medium tracking-wide hover:bg-primary transition"
+              >
+                Contratar Plan
+              </a>
+            </article>
           </div>
         </div>
       </section>
