@@ -190,18 +190,21 @@ function Index() {
             <h2 className="text-display text-5xl md:text-6xl">
               Entrenamiento con propositos y&nbsp;&nbsp; hábitos para toda la vida.
             </h2>
-            <p className="mt-8 text-lg text-muted-foreground leading-relaxed">
-              Yo soy Yago tengo 19 años llevo varios&nbsp; años entrenando por
-              propósito propio mejorando mi físico hábitos y nutrición. Por eso
-              mismo he creado esta web para poder ayudaros a conseguir vuestra
-              mejor versión que es lo que mas me gusta poder ayudar a otras
-              personas a conseguir sus objetivos.&nbsp;
-              <br /><br />
-              Mi método con el que trabajo destaca porque tanto el entrenamiento
-              como la alimentación se adaptan a ti y a tu estilo de vida para que
-              sea lo mas llevadera en el tiempo posible y no te canses de la
-              alimentación o el entreno.
-            </p>
+            <div className="mt-8 text-lg text-muted-foreground leading-relaxed space-y-6">
+              <p>
+                Soy Yago, tengo 19 años y llevo varios años entrenando con un objetivo claro: mejorar mi físico, mi salud y mis hábitos. Durante este tiempo he aprendido que los resultados no dependen de hacer dietas extremas o entrenamientos imposibles, sino de encontrar un método que puedas mantener.
+              </p>
+              <p>
+                Por eso he creado esta web: para ayudar a personas como tú a alcanzar sus objetivos de una forma realista, saludable y sostenible. Lo que más me motiva es acompañar a otras personas en su proceso y ver cómo consiguen cambios que realmente perduran.
+              </p>
+              <h3 className="text-xl text-foreground font-semibold pt-4">Mi método</h3>
+              <p>
+                Mi forma de trabajar se basa en la personalización. Tanto el entrenamiento como la alimentación se adaptan a ti, a tus objetivos y a tu estilo de vida.
+              </p>
+              <p>
+                No creo en los planes genéricos ni en las restricciones innecesarias. Mi objetivo es que disfrutes del proceso, consigas resultados y puedas mantenerlos en el tiempo sin sentir que tu rutina o tu alimentación se convierten en una obligación.
+              </p>
+            </div>
           </div>
         </div>
       </section>
