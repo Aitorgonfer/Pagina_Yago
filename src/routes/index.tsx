@@ -2,8 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import heroImg from "@/assets/yago-hero.jpg";
 import trainingImg from "@/assets/yago-training.jpg";
 import detailImg from "@/assets/yago-detail.jpg";
-import mirrorImg from "@/assets/yago-mirror.jpg.asset.json";
-import gymImg from "@/assets/yago-gym.png.asset.json";
+
 import backImg from "@/assets/yago-back.png.asset.json";
 import mirrorSelfieImg from "@/assets/yago-mirror-selfie.png";
 import logoImg from "@/assets/logo.png";
