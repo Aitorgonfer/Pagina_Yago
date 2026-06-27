@@ -124,9 +124,9 @@ function Index() {
               <em className="italic text-clay">mejor versión.</em>
             </h1>
             <p className="mt-8 max-w-xl text-lg text-muted-foreground leading-relaxed">
-              Acompaño a personas como tú a conseguir un cambio físico real y sobre todo,
-              un cambio de hábitos que te ayude a conseguir tu mejor&nbsp;versión.
-              Entrenamiento, nutrición y constancia —Completamente diseñados a tu medida.
+              Acompaño a personas como tú a conseguir un cambio físico real y, sobre todo,
+              a crear hábitos saludables que puedan mantener en el tiempo. Un plan de
+              entrenamiento y nutrición totalmente personalizado para ayudarte a alcanzar tus objetivos.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <a
