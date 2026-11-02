@@ -261,7 +261,7 @@ function Index() {
               <div>
                 <span className="text-xs uppercase tracking-widest text-muted-foreground font-semibold">Mensual</span>
                 <div className="mt-4 flex items-baseline gap-1">
-                  <span className="text-display text-6xl text-clay">30€</span>
+                  <span className="text-display text-6xl text-clay">60€</span>
                   <span className="text-muted-foreground">/ mes</span>
                 </div>
                 <p className="mt-6 text-sm text-muted-foreground leading-relaxed">
@@ -300,7 +300,7 @@ function Index() {
               <div>
                 <span className="text-xs uppercase tracking-widest text-clay font-bold">Trimestral</span>
                 <div className="mt-4 flex items-baseline gap-1">
-                  <span className="text-display text-6xl text-clay">85€</span>
+                  <span className="text-display text-6xl text-clay">170€</span>
                   <span className="text-muted-foreground">/ trimestre</span>
                 </div>
                 <p className="mt-6 text-sm text-muted-foreground leading-relaxed">
@@ -336,7 +336,7 @@ function Index() {
               <div>
                 <span className="text-xs uppercase tracking-widest text-muted-foreground font-semibold">Anual</span>
                 <div className="mt-4 flex items-baseline gap-1">
-                  <span className="text-display text-6xl text-clay">330€</span>
+                  <span className="text-display text-6xl text-clay">660€</span>
                   <span className="text-muted-foreground">/ año</span>
                 </div>
                 <p className="mt-6 text-sm text-muted-foreground leading-relaxed">
