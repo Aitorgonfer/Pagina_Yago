@@ -91,7 +91,7 @@ const testimonialsRow2 = [
 const plans = [
   {
     name: "Mensual",
-    price: 30,
+    price: 60,
     period: "/ mes",
     description: "Ideal para probar el método y empezar a construir tus hábitos de forma guiada.",
     features: [
@@ -106,7 +106,7 @@ const plans = [
   },
   {
     name: "Trimestral",
-    price: 85,
+    price: 170,
     period: "/ trimestre",
     description: "Para quienes buscan un compromiso a medio plazo y empezar a ver cambios físicos reales.",
     features: [
@@ -122,7 +122,7 @@ const plans = [
   },
   {
     name: "Anual",
-    price: 330,
+    price: 660,
     period: "/ año",
     description: "Transformación radical. Un año completo enfocado en cambiar tu estilo de vida por completo.",
     features: [
